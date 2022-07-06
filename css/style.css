@@ -150,9 +150,31 @@
 }
 
 
+
+.gallery{
+    width: 100%;
+}
+.gallery-title{
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.img-row{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.img-row img{
+    height: 280px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
 .blog{
     width: 80%;
-    margin: 20px auto;
+    margin: 50px auto;
     display: flex;
 }
 .photo{
@@ -182,12 +204,13 @@
 }
 
 
+
 .get-update{
     margin: auto;
     width: 50%;
     margin-top: 60px;
     border-radius: 10px;
-    background-color: rgba(238, 235, 52, 0.2);
+    background-color: rgba(52, 111, 238, 0.2);
 }
 .subs-form{
     width: 80%;
