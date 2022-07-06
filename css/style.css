@@ -145,3 +145,35 @@
     padding-left: 30px;
     padding-right: 10px;
 }
+
+
+.blog{
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+}
+.photo{
+    width: 50%;
+}
+.photo img{
+    height: 600px;
+    width: 100%;
+}
+.description{
+    width: 50%;
+}
+.blog-title{
+    font-size: 50px;
+    padding: 20px;
+    padding-left: 30px;
+    text-align: left;
+}
+.blog-des{
+    text-align: justify;
+    font-size: 22px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+#blog-btn{
+    margin-left: 30px;
+}
