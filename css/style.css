@@ -40,6 +40,7 @@
 
 .donation{
     text-align: center;
+    width: 100%;
 }
 .title{
     font-size: 60px;
@@ -55,7 +56,7 @@
     font-style: italic;
 }
 .amounts{
-    width: 35%;
+    width: 70%;
     margin: auto;
 }
 .amounts ul{
@@ -81,11 +82,12 @@
     color: rgb(255, 73, 73);
 }
 .form{
-    width: 35%;
+    width: 100%;
     margin:auto;
 }
 .form input{
-    width: 100%;
+    margin: auto;
+    width: 60%;
     height: 70px;
     border: none;
     border-bottom: 2px solid rgb(57, 183, 255);
@@ -111,12 +113,12 @@
 }
 .plans{
     display: flex;
-    width: 60%;
+    width: 80%;
     margin: auto;
 }
 .plan{
-    width: 460px;
-    height: 350px;
+    width: 350px;
+    height: 280px;
     border-radius: 10px;
     margin:70px auto;
 }
@@ -130,25 +132,26 @@
     background-color: rgba(238, 235, 52, 0.2);
 }
 .plan img{
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     padding-left: 30px;
     padding-top: 50px;
 }
 .plan-title{
     padding-left: 30px;
     padding-top: 10px;
-    font-size: 35px;
+    font-size: 25px;
 }
 .plan p{
     text-align: left;
     padding-left: 30px;
     padding-right: 10px;
+    font-size: 18px;
 }
 
 
 .blog{
-    width: 60%;
+    width: 80%;
     margin: 20px auto;
     display: flex;
 }
@@ -156,7 +159,7 @@
     width: 50%;
 }
 .photo img{
-    height: 600px;
+    height: 500px;
     width: 100%;
 }
 .description{
@@ -164,16 +167,71 @@
 }
 .blog-title{
     font-size: 50px;
-    padding: 20px;
+    padding: 10px;
     padding-left: 30px;
     text-align: left;
 }
 .blog-des{
     text-align: justify;
-    font-size: 22px;
+    font-size: 18px;
     padding-left: 30px;
     padding-bottom: 30px;
 }
 #blog-btn{
-    margin-left: 30px;
+    margin-left: 40px;
+}
+
+
+.get-update{
+    margin: auto;
+    width: 50%;
+    margin-top: 60px;
+    border-radius: 10px;
+    background-color: rgba(238, 235, 52, 0.2);
+}
+.subs-form{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    padding: 0px 50px;
+    margin: auto;
+}
+.subs{
+    width: 70%;
+}
+#mail{
+    height: 60px;
+    width: 100%;
+    border: 1px solid rgb(70, 171, 253, .9);
+    border-radius: 30px 0px 0px 30px;
+    background-color: white;
+    margin-right: 0px;
+    border-style: inset;
+    margin-top: 70px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.update-btn{
+    height: 62px;
+    width: 30%;
+    text-align: center;
+    color: white;
+    line-height: 60px;
+    border-radius: 0px 30px 30px 0px;
+    border-style: none;
+    background-color: rgb(70, 171, 253, .9);
+    font-size: 22px;
+    margin-top: 70px;
+}
+.footer{
+    height: 200px;
+    margin-top: 20px;
+    background-color: black;
+}
+.footer h1{
+    color: red;
+    font-size: 65px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    line-height: 200px;
 }
