@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Noto Sans Display', sans-serif;
 }
 .header{
     background-image: url("../images/donation6.jpg");
@@ -15,7 +16,6 @@
     font-weight: 700px;
     font-size: 60px;
     color: white;
-    font-family: 'Noto Sans Display', sans-serif;
     padding-top: 120px;
 }
 #banner-dis{
@@ -39,10 +39,9 @@
 }
 
 .donation{
-    font-family: 'Noto Sans Display', sans-serif;
     text-align: center;
 }
-.donation h1{
+.title{
     font-size: 60px;
     text-align: center;
     padding-top: 115px;
@@ -97,4 +96,52 @@
 }
 #second-btn{
     margin-top: 20px;
+}
+
+
+
+.donate-plan{
+    width: 100%;
+    margin: auto;
+}
+.donate-plan p{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.plans{
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+.plan{
+    width: 460px;
+    height: 350px;
+    border-radius: 10px;
+    margin:70px auto;
+}
+#one{
+    background-color: rgb(52, 238, 52, .2);
+}
+#two{
+    background-color: rgba(52, 111, 238, 0.2);
+}
+#three{
+    background-color: rgba(238, 235, 52, 0.2);
+}
+.plan img{
+    height: 100px;
+    width: 100px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.plan-title{
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 35px;
+}
+.plan p{
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 10px;
 }
